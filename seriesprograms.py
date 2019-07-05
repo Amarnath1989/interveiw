@@ -1,4 +1,22 @@
-# PRogram 1
+# PRogram
+
+""" splitting with out using slice"""
+
+s ="Hello World Welcome To Python"
+word =''
+words =[]
+for i in s:
+    if i ==' ':
+        words.append(word)
+        word =''
+    else:
+        word+=i
+else:
+    if word:
+        words.append(word)
+print words
+
+#program
 """ 
 1
 2 2
@@ -17,7 +35,7 @@ for i in range(10):
     print
 
 
-# program2
+# program
 """
 1
 2 2
@@ -52,3 +70,19 @@ for i in range(10):
     for j in range(i):
         print '*',
     print
+
+#program 4
+""" splitting with out using slice"""
+s ="Hello World Welcome To Python"
+word =''
+words =[]
+for i in s:
+    if i ==' ':
+        words.append(word)
+        word =''
+    else:
+        word+=i
+else:
+    if word:
+        words.append(word)
+print words
