@@ -1,5 +1,5 @@
-
-"""
+# PRogram 1
+""" 
 1
 2 2
 3 3 3
@@ -16,6 +16,8 @@ for i in range(10):
         print i,
     print
 
+
+# program2
 """
 1
 2 2
@@ -33,6 +35,7 @@ for i in range(10):
         print i,
     print
 
+# program3
 """
 *
 * *
